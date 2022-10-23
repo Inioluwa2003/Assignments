@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main{
+    background-color: cadetblue;
+    border-radius: 50px;
+    margin: 30px;
+    width: 50%;
+    text-align: center;
+}
+form{
+    margin:30px;
+}
+.option{
+    margin-bottom: 20px;
+}

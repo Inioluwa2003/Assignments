@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>   
+    <main>
+     <header class="header">
+        <h1 class="title">Registration form</h1>
+        <p class="desc">Thank you for showing interest</p>
+     </header>
+        <section>
+            <form class="registration" action="./success.html" method="post">
+                <div class="container">
+                    <div class="form">
+                        <label for="first-name">First Name</label><br>
+                        <input required id="first-name" name="first-name" type="text" placeholder="First Name">
+                    </div>
+                    <div class="form">
+                        <label for="last-name">Last Name</label><br>
+                        <input required id="last-name" name="last-name" type="text" placeholder="Last Name">
+                    </div>
+                    <div class="form">
+                        <label for="phone-no">Phone Number</label><br>
+                        <input id="phone-no" name="phone-no" type="text" placeholder="Phone Number">
+                    </div>
+                    <div class="form">
+                        <label for="email">E-mail</label><br>
+                        <input required type="email" id="email" placeholder="E-mail" name="email">
+                    </div>
+                    <div class="form">
+                        <label for="gender">Gender</label><br>
+                        <select id="dropdown" name="gender">
+                            <option disabled selected value>Select Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Prefer not to say</option>
+                        </select>
+                    </div>
+                    <div class="form">
+                        <label for="DOB">Date of birth</label> <br>
+                        <input type="date" id="DOB" name="DOB">
+                    </div>
+                    <div class="form">
+                        <label for="color">Favourite Colour</label><br>
+                        <input type="color" id="color" name="color">
+                    </div><br>
+                    <div class="form">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <p class="option">Have an account? <a href="./log in.html">Log In</a></p>
+    </main>
+</body>
+</html>
